@@ -2,6 +2,8 @@
 # 🩺 Multiclass Diabetes Prediction System
 
 👉 [**Live Demo**](https://multiclass-diabetes-prediction.streamlit.app/)
+![0d5dc2c7-6468-4db6-8170-332a95666500](https://github.com/user-attachments/assets/8f38ec99-3821-41a1-9a3f-7e86fca543bd)
+
 
 This project aims to build a **Multiclass Diabetes Prediction System** that classifies patients into one of the following categories based on medical diagnostic features:
 
