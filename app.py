@@ -4,7 +4,6 @@ import joblib
 
 model = joblib.load("random_forest_model.pkl")
 scaler = joblib.load("scaler.pkl")
-
 st.title("Multiclass Diabetes Prediction System")
 
 st.markdown("""
