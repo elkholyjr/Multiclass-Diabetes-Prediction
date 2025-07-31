@@ -1,7 +1,7 @@
 
-# 🩺 Multiclass Diabetes Prediction System
+# Multiclass Diabetes Prediction System
 
-👉 [**Live Demo**](https://multiclass-diabetes-prediction.streamlit.app/)
+[**Live Demo**](https://multiclass-diabetes-prediction.streamlit.app/)
 ![0d5dc2c7-6468-4db6-8170-332a95666500](https://github.com/user-attachments/assets/8f38ec99-3821-41a1-9a3f-7e86fca543bd)
 
 
@@ -13,7 +13,7 @@ This project aims to build a **Multiclass Diabetes Prediction System** that clas
 
 ---
 
-## 🧪 Dataset Overview
+## Dataset Overview
 
 The dataset used is a multi-class diabetes dataset that includes various biochemical and physical examination parameters such as:
 
@@ -28,7 +28,7 @@ The dataset used is a multi-class diabetes dataset that includes various biochem
 
 ---
 
-## 🔍 Data Preprocessing
+## Data Preprocessing
 
 ### Feature Engineering & Cleaning:
 - Removed non-informative or redundant features:
@@ -48,7 +48,7 @@ The dataset used is a multi-class diabetes dataset that includes various biochem
 
 ---
 
-## 🤖 Model Training
+## Model Training
 
 Three models were trained and compared:
 
@@ -58,11 +58,11 @@ Three models were trained and compared:
 | **K-Nearest Neighbors (k=6)** | Still showed misclassification on key diabetic patients. |
 | **Random Forest Classifier** | Best performance with balanced training & testing accuracy. Overfitting reduced by tuning `n_estimators`, `max_depth`, `min_samples_leaf`. |
 
-> ✅ **Final Model:** `RandomForestClassifier` with optimized parameters.
+> **Final Model:** `RandomForestClassifier` with optimized parameters.
 
 ---
 
-## 🧠 Evaluation Metrics
+## Evaluation Metrics
 
 Final Random Forest Model Metrics:
 
@@ -72,14 +72,14 @@ Final Random Forest Model Metrics:
 
 ---
 
-## 💾 Saved Artifacts
+## Saved Artifacts
 
 - `random_forest_model.pkl` → Trained model
 - `scaler.pkl` → Trained StandardScaler
 
 ---
 
-## 🌐 Streamlit App
+## Streamlit App
 
 The trained model is deployed using **Streamlit**, allowing users to input medical information and get a real-time prediction of diabetes class.
 
@@ -88,11 +88,11 @@ The trained model is deployed using **Streamlit**, allowing users to input medic
 - Auto computes `TG_to_HDL`
 - Outputs: One of three classes with emoji and description
 
-> 🚀 [Launch App](https://multiclass-diabetes-prediction.streamlit.app/)
+> [Launch App](https://multiclass-diabetes-prediction.streamlit.app/)
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This system is effective in early screening for diabetes and risk prediction based on easily measurable medical attributes. The optimized Random Forest model provides high accuracy and low false negatives, making it suitable for real-world medical applications.
 
